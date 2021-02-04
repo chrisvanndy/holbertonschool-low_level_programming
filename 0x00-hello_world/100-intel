@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -mtune $CFILE
+gcc -march -S $CFILE
