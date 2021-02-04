@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -march -S $CFILE
+gcc -mtune=generic -S $CFILE
