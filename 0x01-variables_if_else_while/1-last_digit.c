@@ -1,11 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
  * main - my function
  * this function shows a random number and writes if stmts
- * 
+ *
  * Return 0
  */
 int main(void)
@@ -29,4 +28,3 @@ int main(void)
 	}
 	return (0);
 }
-
