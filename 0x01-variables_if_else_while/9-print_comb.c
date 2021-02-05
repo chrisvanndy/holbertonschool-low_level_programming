@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - my function
  * I have no idea what to do
@@ -10,12 +11,12 @@ int main(void)
 	int x;
 
 	for (x = '0'; x <= '9'; x++)
-{	
+	{	
 		putchar (x);
 	if (x < '9')
 		putchar(',');
 		putchar(' ');
-}
+	}
 	putchar('\n');
 	return (0);
 }
