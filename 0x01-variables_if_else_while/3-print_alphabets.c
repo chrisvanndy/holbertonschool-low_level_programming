@@ -1,5 +1,5 @@
-#include <stdio.h>
-/*
+include <stdio.h>
+/**
  * Main - this is my function
  * int c,v - lowercase and capital variables
  *

@@ -1,9 +1,9 @@
 #include <stdio.h>
-/*
+/**
  * main - this is my function
- * while statement base 10 numbers
+ * While statement base 10 numbers
  *
- * return: 0
+ * Return: 0
  */
 int main(void)
 {

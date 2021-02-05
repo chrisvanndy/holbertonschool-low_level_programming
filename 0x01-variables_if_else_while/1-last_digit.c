@@ -2,11 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
+/**
  * Main - my function
  *
  * This function shows a random number and writes if stmts
- * return 0
+ * Return 0
  */
 int main(void)
 {

@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * Main - this is my function
  * putchar and omit q,e
  *

@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - this is my function
  * char c - defined variable in for function
  *
