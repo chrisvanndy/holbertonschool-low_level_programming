@@ -1,10 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
+/**
  * Main - function is listed
+ * Determins if a number is > or < than zero
  *
- * determins if a number is > or < than zero
+ * Return: 0 
  */
 
 int main(void)
