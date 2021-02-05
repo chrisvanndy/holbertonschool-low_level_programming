@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * Main - function is listed
+ * main - function is listed
  * Determins if a number is > or < than zero
  *
- * Return: 0 
+ * Return: 0
  */
 
 int main(void)
