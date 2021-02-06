@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * Main - this is my function
+ * main - this is a function for writting lower and upper alpha
  * int c,v - lowercase and capital variables
  *
  * Return: 0
