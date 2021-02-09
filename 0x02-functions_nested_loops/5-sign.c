@@ -1,11 +1,12 @@
 #include "holberton.h"
 /**
+ * print_sign - prints the (+/-) sign of a number.
+ * return of -1 will return '/'
  *
- *
- *
+ * Return: 0, 1, -1 respectively
  */
 int print_sign(int n)
-{	
+{
 	if (n > 0)
 	{
 	_putchar('+');
@@ -22,4 +23,3 @@ int print_sign(int n)
 	return (-1);
 	}
 }
-		
