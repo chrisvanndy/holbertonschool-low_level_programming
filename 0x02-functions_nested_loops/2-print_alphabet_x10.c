@@ -1,27 +1,22 @@
 #include "holberton.h"
 /**
- * print_alphabet - prints alphabet
- * using previous prototype to accomplish new
+ * print_alphabet_x10  - prints alphabet 10x
+ * printing alphabet inside loop that prints alphabet 10x
+ *
  *
  * Return: 0
  */
-void print_alphabet(void)
-{
-	char c = 'a';
-
-	for (; c <= 'z'; c++)
-	{
-	_putchar(c);
-	}
-	_putchar('\n');
-
-}
 void print_alphabet_x10(void)
 {
 	int i;
+	char c;
 
 	for (i = 0; i < 10; i++)
 	{
-	print_alphabet();
+	for (c = 'a'; c <= 'z'; c++)
+        {
+        _putchar(c);
+        }
+        _putchar('\n');
 	}
 }
