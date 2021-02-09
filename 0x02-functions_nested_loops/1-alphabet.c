@@ -1,10 +1,12 @@
 #include "holberton.h"
+
 /**
  * print_alphabet - prototyping function to write alphabet
- * incrament a to z / print new line
  *
+ * incrament a to z / print new line
  * Return: 0
  */
+
 void print_alphabet(void)
 {
 	char c = 'a';
