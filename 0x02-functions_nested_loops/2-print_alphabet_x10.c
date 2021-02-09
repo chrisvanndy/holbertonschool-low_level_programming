@@ -1,4 +1,5 @@
 #include "holberton.h"
+
 /**
  * print_alphabet_x10  - prints alphabet 10x
  * printing alphabet inside loop that prints alphabet 10x
@@ -6,6 +7,7 @@
  *
  * Return: 0
  */
+
 void print_alphabet_x10(void)
 {
 	int i;
@@ -13,10 +15,10 @@ void print_alphabet_x10(void)
 
 	for (i = 0; i < 10; i++)
 	{
-	for (c = 'a'; c <= 'z'; c++)
-	{
-	_putchar(c);
-	}
-	_putchar('\n');
+		for (c = 'a'; c <= 'z'; c++)
+		{
+		_putchar(c);
+		}
+		_putchar('\n');
 	}
 }
