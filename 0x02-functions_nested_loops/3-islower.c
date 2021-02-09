@@ -1,10 +1,12 @@
 #include "holberton.h"
+
 /**
  * _islower - returns 1 if lowercase integer
- * otherwise returns 0
+ * @c: is variable for alpha characters
  *
  * Return: 0
  */
+
 int _islower(int c)
 {
 
