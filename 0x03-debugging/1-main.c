@@ -12,9 +12,8 @@ int main(void)
 	printf("Infinite loop incoming :(\n");
 
 	i = 0;
-	/* the loop will continue forever because i doesn't have an ++ or -- */
 
-	while (i < 10)
+	/* while (i < 10) */
 	{
 		 putchar(i);
 	}
