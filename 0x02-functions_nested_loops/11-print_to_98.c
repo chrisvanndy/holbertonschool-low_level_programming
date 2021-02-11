@@ -21,18 +21,17 @@ void print_to_98(int n)
 	}
 	}
 	}
-		else if (n < 98)
-		{
-		for (x = n; x <= 98; x++)
-		{
-		printf("%d, ", x);
-		if (x == 98)
-		{
-		printf("98\n");
-		}
-		}
-		}
-			else
-			printf("98\n");
+	else if (n < 98)
+	{
+	for (x = n; x <= 98; x++)
+	{
+	printf("%d, ", x);
+	if (x == 98)
+	{
+	printf("98\n");
+	}
+	}
+	}
+	else
+	printf("98\n");
 }
-
