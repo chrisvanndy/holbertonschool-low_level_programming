@@ -15,7 +15,7 @@ void print_diagonal(int n)
 		/*printf("outside loop: x is %d, y is %d, and n is %d", x, y, n);*/
 		_putchar('\\');
 
-		if(x != n - 1)
+		if (x != n - 1)
 		{
 		_putchar('\n');
 		}
@@ -35,6 +35,6 @@ void print_diagonal(int n)
 		{
 			continue;
 		}
-	}	
+	}
 	_putchar('\n');
 }
