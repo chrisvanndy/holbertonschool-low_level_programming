@@ -6,11 +6,12 @@
  */
 int main(void)
 {
-	int i, t1 = 1, t2 = 2, next;
+	int i;
+	long long int t1 = 1, t2 = 2, next;
 
 	for (i = 1; i <= 50; i++)
 	{
-	printf("%d, ", t1);
+	printf("%lld, ", t1);
 	next = t1 + t2;
 	t1 = t2;
 	t2 = next;
