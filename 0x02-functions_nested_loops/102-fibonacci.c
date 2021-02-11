@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int i, n, t1 = 1, t2 = 2, next;
+	int i, t1 = 1, t2 = 2, next;
 
 	for (i = 1; i <= 50; i++)
 	{
@@ -16,5 +16,6 @@ int main(void)
 	t2 = next;
 	}
 	printf("\n");
+
 	return (0);
 }
