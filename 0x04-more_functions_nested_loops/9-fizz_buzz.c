@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "holberton.h"
 /**
  * main  - print fizz, buzz, and fizzbuzz in place of numbers
  *
@@ -10,7 +11,7 @@ int main(void)
 
 	for (x = 1; x <= 100; x++)
 	{
-		if (x % 15 == 0)
+		if (x % 3 == 0 && x % 5 == 00)
 		{
 			printf("FizzBuzz ");
 		}
@@ -30,4 +31,3 @@ int main(void)
 
 	printf("\n");
 }
-
