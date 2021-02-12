@@ -1,11 +1,10 @@
 #include <stdio.h>
-#include "holberton.h"
 /**
  * main  - print fizz, buzz, and fizzbuzz in place of numbers
  *
- * Return: void
+ * Return: 0
  */
-int main(void)
+int main()
 {
 	int x;
 
@@ -30,4 +29,6 @@ int main(void)
 	}
 
 	printf("\n");
+
+	return (0);
 }
