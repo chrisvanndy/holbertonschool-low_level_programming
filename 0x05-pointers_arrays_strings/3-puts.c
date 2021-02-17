@@ -1,8 +1,9 @@
 #include "holberton.h"
 /**
+ * _puts - write a string via its array
+ * @str: points to stored string
  *
- *
- *
+ * Return: void
  */
 void _puts(char *str)
 {
