@@ -11,24 +11,27 @@ void print_rev(char *s)
 
 	l = _strlen(s);
 
-	while ( l >= 0)
+	while (l >= 0)
 	{
 		_putchar(s[l]);
 		l--;
 	}
 _putchar('\n');
 }
+/**
+ * _strlen - determines characters in a string)
+ * @s: s points to string
+ *
+ * Return: x
+ */
 int _strlen(char *s)
 {
-        int x = 0;
+	int x = 0;
 
-        while (*(s + x) != '\0')
-        {
-                x++;
-        }
+	while (*(s + x) != '\0')
+	{
+		x++;
+	}
 
-        return (x);
+	return (x);
 }
-
-
-
