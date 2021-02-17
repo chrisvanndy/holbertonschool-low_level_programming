@@ -24,7 +24,12 @@ void puts_half(char *str)
 	}
 	_putchar('\n');
 }
-
+/**
+ * _strlen - determines characters in a string)
+ * @s: s points to string
+ *
+ * Return: x
+ */
 int _strlen(char *s)
 {
 	int x = 0;
