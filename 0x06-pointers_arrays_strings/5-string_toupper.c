@@ -7,6 +7,7 @@
 char *string_toupper(char *i)
 {
 	int n;
+
 	n = 0;
 
 	while (i[n] != '\0')
