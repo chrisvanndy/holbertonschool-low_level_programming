@@ -7,6 +7,7 @@
 char *string_toupper(char *i)
 {
 	int n;
+	n = 0;
 
 	while (i[n] != '\0')
 	{
@@ -15,7 +16,7 @@ char *string_toupper(char *i)
 			i[n] = i[n] - 32;
 		}
 
-		n:++;
+		n++;
 	}
 	return (i);
 }
