@@ -1,17 +1,17 @@
 #include "holberton.h"
 /**
- *
- *
- * 
- *
- *
+ * _strncpy - copy string to dest
+ * @dest: desination of string
+ * @src: input for function to copy
+ * @n: index variabe for array
+ * Return: dest
  */
 char *_strncpy(char *dest, char *src, int n)
 {
 	int i;
 
 	for (i = 0; i < n && src[i] != '\0'; i++)
-        { 
+	{
 		dest[i] = src[i];
 	}
 	for ( ; i < n; i++)
