@@ -19,7 +19,7 @@ char *rot13(char *str)
 			{
 				str[i] = r2[n];
 					break;
-			}	
+			}
 		}
 	i++;
 	}
