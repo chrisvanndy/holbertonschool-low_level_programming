@@ -2,7 +2,7 @@
 /**
  * _strspn - count of matching chars in string given f
  * @s: given string
- * @f: chars to run compariosn
+ * @accept: chars to run compariosn
  * Return: count (c)
  */
 	/*        variable s         f    */
