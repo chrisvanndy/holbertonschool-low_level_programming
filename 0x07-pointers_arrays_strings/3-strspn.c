@@ -1,10 +1,13 @@
 #include "holberton.h"
 /**
- *
+ * _strspn - count of matching chars in string given f
+ * @s: given string
+ * @f: chars to run compariosn
+ * Return: count (c)
  */
 	/*        variable s         f    */
 unsigned int _strspn(char *s, char *accept)
-{	
+{
 	/* declare and define variables */
 	int i, ii, c = 0;
 
