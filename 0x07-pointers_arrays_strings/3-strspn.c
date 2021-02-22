@@ -10,6 +10,9 @@ unsigned int _strspn(char *s, char *accept)
 {
 	/* declare and define variables */
 	int i, ii, c = 0;
+	
+	if (accept[0] != '\0')
+		return (c);
 
 	/* loop through string s  */
 	for (i = 0; s[i] != ','; i++)
@@ -20,7 +23,7 @@ unsigned int _strspn(char *s, char *accept)
 			{
 				break;
 			}
-			if (!accept[ii + 1])
+			if (!accept[ii] + 1)
 			{
 				return (c);
 			}
