@@ -1,25 +1,25 @@
 #include "holberton.h"
+#include <stdio.h>
 /**
- * _strchr - function prints string after 'c'
- * @s: string given
- * @c: character given to indicate
- * Return: string at c or null
+ * _strchr - detects 'c' in S
+ * @s: string
+ * @c: character to test for in s
+ * Return: void
  */
-/* from main -char s,   'l' */
+	/* main     s, hello    'l' */
 char *_strchr(char *s, char c)
 {
-	/* define or declare variables */
 	int i;
-	/* return a pointer to first occurance of 'l' in s */
-	/* loop through s */
+
 	for (i = 0; s[i] != '\0'; i++)
 	{
-	/* if the char 'l' occurs*/
 		if (s[i] == c)
 		{
-		return (s + i);
+			return (s + i);
+
 		}
 	}
-	/* return '\0' if 'char' not found */
-	return ('\0');
+
+	return (NULL);
+
 }
