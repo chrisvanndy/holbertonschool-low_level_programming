@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * _strlen-recursion - prints number of char in a string via recursion
+ * _strlen_recursion - prints number of char in a string via recursion
  * @s: string to be counted
  * Return: s
  */
