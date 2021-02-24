@@ -1,24 +1,22 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
- * print_diagsums - prints diagonal of square matrix
- * @a: array variable
+ * print_diagsums - print diagonal lines of square matrix
+ * @a: matrix
+ * @size: size of matrix
  * Return: void
  */
 void print_diagsums(int *a, int size)
 {
-	int diag1 = 0, diag2 = 0, i, j;
+	int x, y, diag1 = 0, diag2 = 0;
 
-	for (i = 0; i < size; i++)
+	for (x = 0; x < (size * size); x += (size + 1))
 	{
-		for (j = 0; j < size; j++)
-		{
-			if (i == j)
-			diag1= sum + a[i][j];
-			if (i + j == (size-1))
-			diag2= sum + a[i][j];
-		}
+		diag1 += a[x];
 	}
-printf("%d, ", diag1);
-printf("%d\n", diag2);
+	for (y = 0; y < (size * size) - size + 1; y += (size - 1))
+	{
+		diag2 += a[y];
+	}
+	printf("%d, %d\n", diag1, diag2);
 }
