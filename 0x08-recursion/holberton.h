@@ -12,6 +12,7 @@ int is_prime_number(int n);
 int square(int n, int s);
 int is_prime_number(int n);
 int prime(int x, int o);
-
+int is_palindrome(char *s);
+int helperfunc(char *s, int len, int i);
 #endif
 
