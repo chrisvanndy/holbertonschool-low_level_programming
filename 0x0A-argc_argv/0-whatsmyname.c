@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * task0 - function that prints its name
+ * main - function that prints its name
  * @argc: argc integer gives # of cmmd line args
  * @argv: argv is an array of size argc
  * Return: 0
