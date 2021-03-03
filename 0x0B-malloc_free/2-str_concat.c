@@ -29,10 +29,6 @@ char *str_concat(char *s1, char *s2)
 	char *s;
 	int i, ii, sz1 = _strlen(s1), sz2 = _strlen(s2);
 
-	s = (char *) malloc(sz1 + sz2 + 1);
-
-	if (s == NULL)
-		return (NULL);
 	if (s1 == NULL)
 	{
 		s1 = "";
@@ -41,6 +37,11 @@ char *str_concat(char *s1, char *s2)
 	{
 		s2 = "";
 	}
+
+	s = (char *) malloc(sz1 + sz2 + 1);
+
+	if (s == NULL)
+		return (NULL);
 	for (i = 0; s1[i] != '\0'; i++)
 	{
 		s[i] = s1[i];
