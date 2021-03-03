@@ -1,14 +1,13 @@
 #include "holberton.h"
-#include <stdio.h>
 #include <stdlib.h>
 /**
  * free_grid - free grid
- * @grid: grid
- * @height: height
+ * @grid: pointer to pointer
+ * @height: int
  * Return: void
  */
 void free_grid(int **grid, int height)
 {
-	(void)height;
+	(void) height;
 	free(grid);
 }
