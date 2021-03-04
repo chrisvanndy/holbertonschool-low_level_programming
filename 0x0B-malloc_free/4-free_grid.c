@@ -8,17 +8,17 @@
  */
 void free_grid(int **grid, int height)
 {
-	int i;
 
 	if (grid == NULL)
-		return (NULL);
-	if (height == NULL)
+		return;
+
+	while (height >= 0)
 	{
-		while (height >= 0)
-		{
-			return (NULL);
-			height--;
-		}
-	free(grid);
+		free(grid[height]);
+		height--;
+		return;
 	}
+
+	free(grid);
+
 }
