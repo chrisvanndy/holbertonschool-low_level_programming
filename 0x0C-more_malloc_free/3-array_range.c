@@ -1,10 +1,10 @@
 #include "holberton.h"
 #include <stdlib.h>
 /**
- *
- *
- *
- *
+ * array_range - allocate memory for int array
+ * @min: min array member
+ * @max: max array member
+ * Return: pointer
  */
 int *array_range(int min, int max)
 {
