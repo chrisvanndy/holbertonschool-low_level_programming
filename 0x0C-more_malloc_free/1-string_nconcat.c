@@ -27,16 +27,18 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	char *ptr;
 	unsigned int y = 0, x;
 
+	if (s1 == NULL)
+		s1 = "";
+	if (s2 == NULL)
+		s2 = "";
+
 	if (n >= (unsigned int) _strlen(s2))
 		n = (unsigned int) _strlen(s2);
 	ptr = malloc((unsigned int) _strlen(s1) + n + 1);
 
 	if (ptr == NULL)
 		return (NULL);
-	if (s1 == NULL)
-		s1 = "";
-	if (s2 == NULL)
-		s2 = "";
+
 	for (x = 0; s1[x] != '\0'; x++)
 	{
 		ptr[y] = s1[x];
