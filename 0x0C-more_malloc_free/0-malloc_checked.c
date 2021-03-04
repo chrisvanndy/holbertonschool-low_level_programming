@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include <limits.h>
 /**
+ * malloc_checked - assign memory with malloc
+ * @b: perameters from main
  *
- *
- *
- *
+ * Return: pointer
  */
 void *malloc_checked(unsigned int b)
 {
@@ -13,7 +13,7 @@ void *malloc_checked(unsigned int b)
 
 	ptr = malloc(b);
 	if (ptr == NULL || b >= INT_MAX)
-		exit (98);
-	
+		exit(98);
+
 	return (ptr);
 }
