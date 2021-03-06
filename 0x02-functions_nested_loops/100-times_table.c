@@ -8,7 +8,6 @@
 void print_times_table(int n)
 {
 	int h, x, i;
-	
 
 	for (h = 0; h <= n; h++)
 	{
@@ -38,7 +37,7 @@ void print_times_table(int n)
 			_putchar(' ');
 			}
 			if (i > 9 && i < 100 && x < n)
-			_putchar(' '); 
+			_putchar(' ');
 		}
 	_putchar('\n');
 	}
