@@ -4,7 +4,7 @@
 char *_strdup(char *str);
 int _strlen(char *s);
 /**
- * new_dog - new dog 
+ * new_dog - new dog
  * @name: dog name
  * @age: dog age
  * @owner: dog owner:
@@ -13,7 +13,7 @@ int _strlen(char *s);
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	struct dog *dog2;
-	
+
 	dog2 = malloc(sizeof(struct dog));
 	if (dog2 == NULL)
 		return (NULL);
@@ -28,12 +28,17 @@ dog_t *new_dog(char *name, float age, char *owner)
 		if (dog2->owner == NULL)
 		{
 		free(dog2);
+		free(dog2->name);
 		return (NULL);
 		}
 
 	return (dog2);
 }
-
+/**
+ * _strlen - length of string
+ * @s: string passed
+ * Return: int
+ */
 int _strlen(char *s)
 {
 	int i = 0;
