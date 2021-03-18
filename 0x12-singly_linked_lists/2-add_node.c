@@ -1,12 +1,11 @@
 #include "lists.h"
 /**
- *
- *
- *
+ * add_node - adds node to begginning of list
+ * @head: pointer to node
+ * @str: contsant string
  */
 list_t *add_node(list_t **head, const char *str)
-{
-	
+{	
 	list_t *new;
 
 	if (str == NULL)
