@@ -4,7 +4,7 @@
  * @h: pointer to node
  * Return: size_t (count)
  */
-size_t list_len(const list_t *h);
+size_t list_len(const list_t *h)
 {
 	size_t count = 0;
 
@@ -12,7 +12,7 @@ size_t list_len(const list_t *h);
 		return (count);
 	while (h->next != NULL)
 	{
-		count++
+		count++;
 		h = h->next;
 	}
 	count++;
