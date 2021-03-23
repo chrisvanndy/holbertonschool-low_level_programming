@@ -7,21 +7,21 @@
  */
 size_t print_listint(const listint_t *h)
 {
-	size_t x = 0;
+	size_t i = 0;
 
 	if (h == NULL)
 		return (i);
 
 	while (h->next != NULL)
 	{
-		x++;
+		i++;
 		printf("%u\n", h->n);
 		h = h->next;
 
 	}
 
-		x++;
+		i++;
 		printf("%u\n", h->n);
 
-	return (x);
+	return (i);
 }
