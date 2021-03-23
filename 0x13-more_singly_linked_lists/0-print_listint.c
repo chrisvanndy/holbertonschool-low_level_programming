@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * print_listint - prints elements value "n" and total number of elements in list
+ * print_listint - prints  total number of elements in list
  * @h: pointer to node of list
  *
  * Return: integer (i)
@@ -20,7 +20,7 @@ size_t print_listint(const listint_t *h)
 		h = h->next;
 
 	}
-	
+
 		i++;
 		printf("%u\n", h->n);
 
