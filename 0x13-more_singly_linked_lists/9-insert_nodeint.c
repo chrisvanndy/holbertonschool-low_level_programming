@@ -12,12 +12,22 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 
 	trav = *head;
 
-	if (listint_len(*head) <= idx)
+	if (listint_len(*head) < idx)
 		return (NULL);
 
 	newIndex = malloc(sizeof(listint_t));
 	if (newIndex == NULL)
 		return (NULL);
+
+	if (idx == 0)
+	{
+		/* if making a new head of the liststart  */
+		newIndex->n = n;
+		newIndex->next = *head;
+		/* point head to new begginning of list */
+		*head = newIndex;
+		return (newIndex);
+	}
 
 	while (--idx)
 		trav = trav->next;
