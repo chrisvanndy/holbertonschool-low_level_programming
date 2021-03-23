@@ -1,7 +1,7 @@
 #include "lists.h"
 /**
  * sum_listint - sums all integer data from given list
- * @head: pointer to head of list of interest 
+ * @head: pointer to head of list of interest
  * Return: int (total)
  */
 int sum_listint(listint_t *head)
@@ -14,7 +14,7 @@ int sum_listint(listint_t *head)
 		total += adds->n;
 		adds = adds->next;
 	}
-	
+
 	total += adds->n;
 
 	return (total);

@@ -1,7 +1,7 @@
 #include "lists.h"
 /**
  * free_listint2 - free's list from double pointer
- * @nead: double pointer to head of list
+ * @head: double pointer to head of list
  * Return: void
  */
 void free_listint2(listint_t **head)

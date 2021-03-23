@@ -6,8 +6,8 @@
  * Return: address of node of interest
  */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
-{	
-	
+{
+
 	/* declare counting variable and temp variable for function */
 	unsigned int x = 0;
 	listint_t *findIndex;
@@ -39,6 +39,6 @@ size_t listint_len(const listint_t *h)
 		i++;
 		h = h->next;
 	}
-	
+
 	return (i);
 }

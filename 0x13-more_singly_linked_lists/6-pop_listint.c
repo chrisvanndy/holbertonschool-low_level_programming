@@ -17,9 +17,9 @@ int pop_listint(listint_t **head)
 
 	d = (*head)->n;
 	popper = *head;
-	/* set head to the second node before we delete the first */ 
- 	*head = popper->next;
+	/* set head to the second node before we delete the first */
+	*head = popper->next;
 
 	free(popper);
-	return(d);
+	return (d);
 }
