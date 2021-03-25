@@ -2,7 +2,6 @@
 /**
  * count_setbits - counts number of bits that are flipped
  * @n: given int
- * @m: given int
  * Return: int (count)
  */
 unsigned int count_setbits(unsigned long int n)
