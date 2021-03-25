@@ -3,7 +3,7 @@
 /**
  * get_bit - prints bit at given index
  * @n: given integer -- convert to binary then search index
- * @index: given index to print 
+ * @index: given index to print
  * Return: int
  */
 int get_bit(unsigned long int n, unsigned int index)
