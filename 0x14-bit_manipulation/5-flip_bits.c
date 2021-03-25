@@ -5,7 +5,7 @@
  * @m: given int
  * Return: int (count)
  */
-unsigned int count_setbits(unsigned long int n, unsigned long int m)
+unsigned int count_setbits(unsigned long int n)
 {
 	unsigned int count = 0;
 
