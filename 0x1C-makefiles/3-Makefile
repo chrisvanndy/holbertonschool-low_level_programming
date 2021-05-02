@@ -6,8 +6,6 @@ RM := rm
 
 all: $(NAME) clean oclean fclean re
 
-all: $(NAME)
-
 $(NAME): $(OBJ)
 	$(CC) -o $(NAME) $(OBJ)
 
