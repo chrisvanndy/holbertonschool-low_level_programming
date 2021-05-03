@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-""" python script """
- 
- 
+""" python script
+"""
+
+
 def island_perimeter(grid):
     """Island perimeter gauged by looping through list of listsi
 
@@ -19,5 +20,5 @@ def island_perimeter(grid):
                     edge += 1
                 if j > 0 and grid[i][j - 1] == 1:
                     edge += 1
-    perimeter  = land * 4 - edge * 2
+    perimeter = land * 4 - edge * 2
     return perimeter
