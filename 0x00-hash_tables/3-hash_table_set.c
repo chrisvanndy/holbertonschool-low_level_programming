@@ -31,8 +31,8 @@ hash_node_t *ht_newpair(const char *key, const char *value)
 /**
  * hash_table_set - adds an element to the hash table (handles collision)
  * @ht: table to add k/v pair to
- * @key: key 
- * @value: value 
+ * @key: key
+ * @value: value
  * Return: 1 if successful or 0 otherwise
  */
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
