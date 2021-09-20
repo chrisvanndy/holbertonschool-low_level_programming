@@ -3,11 +3,11 @@
 #include <stdlib.h>
 
 /**
- * linear_search - searches an array for give value.
+ * linear_search - Searches an array for give value.
  * @array: the array to be searched.
  * @size: the size of the array being searched.
  * @value: the value being searched for
- * Returns - the array index holding the value, or -1
+ * Return: the array index holding the value, or -1
  */
 
 int linear_search(int *array, size_t size, int value)
@@ -22,12 +22,9 @@ int linear_search(int *array, size_t size, int value)
 			printf("Value checked array[%zu] = [%i]\n", i, array[i]);
 			if (array[i] == value)
 			{
-				return i;
+				return (i);
 			}
-		
 		}
 	}
-
 	return (-1);
-	
 }
